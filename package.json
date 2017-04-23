@@ -1,0 +1,22 @@
+{
+  "name": "mocha-tutorial",
+  "version": "1.0.0",
+  "description": "mocha tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "gulp": "gulp"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "alex",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^4.3.0",
+    "gulp-mocha-phantomjs": "^0.12.1",
+    "jquery": "^1.12.4",
+    "mocha": "^3.2.0"
+  }
+}

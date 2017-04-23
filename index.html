@@ -1,0 +1,34 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/mocha/mocha.css" />
+</head>
+    <body>
+        <div id="mocha"></div>
+        <div class="test-container" style="display:hidden;"></div>
+
+        <!--libraries-->
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/mocha/mocha.js"></script>
+        <script src="node_modules/chai/chai.js"></script>
+        
+        <!--define mocha chainable lauguage style-->
+        <script>
+            mocha.ui('bdd');
+            expect = chai.expect;
+        </script> 
+ 
+        <!--target file-->
+        <script src="./src/script-dom.js"></script>
+
+        <!--test file-->
+        <script src="./test/test.script-dom.js"></script>
+
+        <!--run test-->
+        <script>
+            mocha.run();
+        </script> 
+
+    </body>
+</html>
