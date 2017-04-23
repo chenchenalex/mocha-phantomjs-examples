@@ -1,4 +1,4 @@
-// phantomJS does not support ES2015 syntax, so don't use them without babel transpile
+// nodejs does not support ES2015 syntax, so don't use them without babel transpile
 
 // use BDD as default testing style
 var expect = chai && chai.expect;
