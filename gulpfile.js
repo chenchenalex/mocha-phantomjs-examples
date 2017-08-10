@@ -30,6 +30,5 @@ gulp.task('istanbul-report', ['pre-test'], function() {
         .pipe(istanbul.writeReports())
 });
 
-
-gulp.task('test', ['mocha', 'mocha-dom']);
+gulp.task('default', ['mocha', 'mocha-dom']);
 gulp.task('reporter', ['istanbul-report']);
