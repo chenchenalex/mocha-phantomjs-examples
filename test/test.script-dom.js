@@ -3,7 +3,6 @@
 // use BDD as default testing style
 var expect = chai && chai.expect;
 
-
 // Test module
 describe('addclass() in script.js', function() {
 
